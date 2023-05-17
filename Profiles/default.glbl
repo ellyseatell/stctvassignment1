@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['لايت', 'الأساسية', 'بريميوم']</initValue>
+      <name>ExpectedPlansAr</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>My PC location is lebanon, so when I browse https://subscribe.stctv.com, its redirecting me to https://subscribe.stctv.com/lb-ar and i can find KSA,BH and KW, so I had to start with https://subscribe.stctv.com/sa-ar and navigate to BH and KWA.</description>
+      <initValue>'https://subscribe.stctv.com/sa-ar'</initValue>
+      <name>WebUrl1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['LITE', 'CLASSIC', 'PREMIUM']</initValue>
+      <name>ExpectedPlansEng</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dataFilePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['الكويت', 'البحرين', 'السعودية']</initValue>
+      <name>Listofcountries</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
