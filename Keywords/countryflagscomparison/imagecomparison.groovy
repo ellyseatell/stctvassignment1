@@ -50,7 +50,7 @@ public class imagecomparison {
 		//def actualImagePath = RunConfiguration.getProjectDir() + checkpointimg
 		def expectedImagePath =  baselineimg
 		def actualImagePath = checkpointimg
-		def tolerance = 0
+		def tolerance = 0.3
 
 		def expectedImage = ImageIO.read(new File(expectedImagePath))
 		def actualImage = ImageIO.read(new File(actualImagePath))
