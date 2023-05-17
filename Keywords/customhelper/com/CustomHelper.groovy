@@ -92,7 +92,7 @@ public class CustomHelper {
 						WebUI.click(Countryname)
 						TestObject CountrySelect = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//div[@class=\'country-select\']/a[@id=\'kw\']'))
 						WebUI.click(CountrySelect)
-						WebUI.delay(30)
+						WebUI.waitForElementPresent(Countryname, 10)
 					}
 
 					DriverFactory factory1 = new DriverFactory()
@@ -176,7 +176,7 @@ public class CustomHelper {
 						WebUI.click(Countryname)
 						TestObject CountrySelect = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//div[@class=\'country-select\']/a[@id=\'sa\']'))
 						WebUI.click(CountrySelect)
-						WebUI.delay(30)
+						WebUI.waitForElementPresent(Countryname, 10)
 					}
 
 					DriverFactory factory2 = new DriverFactory()
@@ -265,6 +265,8 @@ public class CustomHelper {
 						WebUI.click(Countryname)
 						TestObject CountrySelect = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//div[@class=\'country-select\']/a[@id=\'bh\']'))
 						WebUI.click(CountrySelect)
+						WebUI.waitForElementPresent(Countryname, 10)
+						
 					}
 
 					DriverFactory factory = new DriverFactory()
